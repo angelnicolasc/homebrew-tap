@@ -5,21 +5,21 @@
 class Graymatter < Formula
   desc "Persistent memory for AI agents. Single binary, zero infrastructure."
   homepage "https://github.com/angelnicolasc/graymatter"
-  version "0.13.1"
+  version "0.14.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/angelnicolasc/graymatter/releases/download/v0.13.1/graymatter_0.13.1_darwin_amd64.tar.gz"
-      sha256 "57b449f8c6bd7223db098a0a367a6d09d48028a268989cbeb947486aabc302b6"
+      url "https://github.com/angelnicolasc/graymatter/releases/download/v0.14.0/graymatter_0.14.0_darwin_amd64.tar.gz"
+      sha256 "033229db41471425d4eec32097645a2fb266ea7d1a88824dfa24fb042db7a800"
 
       define_method(:install) do
         bin.install "graymatter"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/angelnicolasc/graymatter/releases/download/v0.13.1/graymatter_0.13.1_darwin_arm64.tar.gz"
-      sha256 "4489381ccfd8378a7bfac590dad2f108388bb877249aa0acd582ecd23e898c98"
+      url "https://github.com/angelnicolasc/graymatter/releases/download/v0.14.0/graymatter_0.14.0_darwin_arm64.tar.gz"
+      sha256 "4db9c36a45378d4a5bf70486af6f719b6c9f4f4fd3a9178cad1f43b03d57352b"
 
       define_method(:install) do
         bin.install "graymatter"
@@ -29,15 +29,15 @@ class Graymatter < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/angelnicolasc/graymatter/releases/download/v0.13.1/graymatter_0.13.1_linux_amd64.tar.gz"
-      sha256 "4b8d24ee30f791ae593ab65fab17e04ea7ceb5e8dd003fce52cf3e48dc6374c2"
+      url "https://github.com/angelnicolasc/graymatter/releases/download/v0.14.0/graymatter_0.14.0_linux_amd64.tar.gz"
+      sha256 "bded6aa94f0494d665ed70000166c7c43b622f0eecb1c2089294d01434885f94"
       define_method(:install) do
         bin.install "graymatter"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/angelnicolasc/graymatter/releases/download/v0.13.1/graymatter_0.13.1_linux_arm64.tar.gz"
-      sha256 "7bfdf95444e2fa732bc2e5b2c4df633cb77d35df6e28073283f80ec10d5a776b"
+      url "https://github.com/angelnicolasc/graymatter/releases/download/v0.14.0/graymatter_0.14.0_linux_arm64.tar.gz"
+      sha256 "90fdd3c2a6e6f0e1a6b23969b009f11d18758c740d2d4d2b2cc1dfdc5330614e"
       define_method(:install) do
         bin.install "graymatter"
       end
