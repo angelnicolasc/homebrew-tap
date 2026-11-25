@@ -1,28 +1,28 @@
 class Flinch < Formula
   desc "Turn corrections to coding agents into repository checks"
   homepage "https://github.com/angelnicolasc/flinch"
-  version "0.1.1"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/angelnicolasc/flinch/releases/download/v0.1.1/flinch_0.1.1_darwin_amd64.tar.gz"
-      sha256 "2826ef00b3bda4f3bb0a7be486bd27ca4ed397b7206694564202f09f433b8133"
+      url "https://github.com/angelnicolasc/flinch/releases/download/v0.1.2/flinch_0.1.2_darwin_amd64.tar.gz"
+      sha256 "62a5a492d25bb5544781b59c424f92d198ea0bd93516163f0912426dc66a94b6"
     end
     on_arm do
-      url "https://github.com/angelnicolasc/flinch/releases/download/v0.1.1/flinch_0.1.1_darwin_arm64.tar.gz"
-      sha256 "e76b3296a697fec80d1d58e4f6ef8080aff6ff46963cbe21882104cc95a373fb"
+      url "https://github.com/angelnicolasc/flinch/releases/download/v0.1.2/flinch_0.1.2_darwin_arm64.tar.gz"
+      sha256 "7924326564374766f964d7d1cd3e0ca209e0a36723cc7c16995a6f7b6674d579"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/angelnicolasc/flinch/releases/download/v0.1.1/flinch_0.1.1_linux_amd64.tar.gz"
-      sha256 "339b5c1df5691d9259e9837c1aec64f0853d2e8b3c000e88bd7660f3b2b69c48"
+      url "https://github.com/angelnicolasc/flinch/releases/download/v0.1.2/flinch_0.1.2_linux_amd64.tar.gz"
+      sha256 "9402d8d26c254845b23f390db5e13b85c2bf69ac4affa8e7d26f75508bf27549"
     end
     on_arm do
-      url "https://github.com/angelnicolasc/flinch/releases/download/v0.1.1/flinch_0.1.1_linux_arm64.tar.gz"
-      sha256 "866d7fc4a68b1d9088a071825c46aba9b9f7af0a404fb20671ad7d0225e7babe"
+      url "https://github.com/angelnicolasc/flinch/releases/download/v0.1.2/flinch_0.1.2_linux_arm64.tar.gz"
+      sha256 "39fcefaf6c5c19b1144e4fdfe54df9e15e102e807c20264980c370046bc50eea"
     end
   end
 
